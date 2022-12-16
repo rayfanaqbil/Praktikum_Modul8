@@ -14,7 +14,7 @@
     <?php
     $i = 0;
     $bulan = array("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember");
-    foreach ($bulan as bln) {
+    foreach ($bulan as $bln) {
         echo (($i + 1) . "$bln <br>");
         $i++;
     }

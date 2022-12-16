@@ -11,19 +11,19 @@
 <body>
     <h2>Tipe Data Objek</h2>
     <?php
-    class Desl
+    class Desc
     {
         var $str = "Variabel Class";
         function set_vars($str)
         {
-            this->str = $str;
+            $this->str = $str;
         }
     }
-    $class = new Desl;
+    $class = new Desc;
     echo $class->str;
     $class->set_vars("Variabel Objek");
     echo ("<br>");
-    echo $class - str;
+    echo $class->str;
     ?>
 </body>
 

@@ -11,9 +11,9 @@
 <body>
     <h2>Fungsi : String strtolower()</h2>
     <?php
-    $string - "Pemrograman Web PHP";
+    $string = "Pemrograman Web PHP";
     $word = strtolower($string);
-    echo ("<1>\"$string\"</1> <br>");
+    echo ("$string\" <br>");
     echo ("Hasil strtolower adalah <i>\"$word\"<i>");
     ?>
 </body>

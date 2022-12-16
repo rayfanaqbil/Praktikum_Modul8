@@ -13,7 +13,7 @@
     <?php
     $string = "Pemrograman Web PHP";
     $word = substr($string, 16, 3);
-    echo ("<1>\"$string\"</1> <br>");
+    echo ("$string\"<br>");
     echo ("Hasil subtir (15,3) adalah $word");
     ?>
 </body>
